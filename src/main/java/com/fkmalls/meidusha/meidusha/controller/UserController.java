@@ -166,13 +166,11 @@ public class UserController {
         /**
          * 获取用户头像
          */
-        log.info("开始查找{}....",fileName);
+        //log.info("开始查找{}....",fileName);
         //启动本地服务时新生成的文件地址
         //String imageFilePath = "/Volumes/work/ERPCode/testProjrct/MeiDuSha/image";
         //打包到测试服务器的文件地址
         String imageFilePath="/root/meidusha/image";
-
-
         //找到服务器存放路径
         fileName = imageFilePath + "/" + fileName;
         //解析文件后缀
